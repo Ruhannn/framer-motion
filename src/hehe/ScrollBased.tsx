@@ -1,5 +1,4 @@
 import { useScroll, motion, useSpring, useTransform } from "framer-motion";
-import React from "react";
 
 const ScrollBased = () => {
   const { scrollYProgress } = useScroll();
@@ -23,7 +22,7 @@ const ScrollBased = () => {
         }}
       />
 
-      <div className="w-full p-5 [&>p]:my-3 [&>p]:w-[700px]">
+      <div className="w-screen p-5 [&>p]:my-3 [&>p]:w-[500px] ">
         <p>
           Did i say something wrong? did you hear what i was thinking? did i
           talk way too long when i told you all my feelings that night? is it

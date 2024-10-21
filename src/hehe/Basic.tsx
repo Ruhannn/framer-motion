@@ -23,7 +23,7 @@ export default function Basic() {
               ease: "backOut",
               duration: 1,
               // their transition 0 for 0 s 1 for the duration
-              times: [0, 0.25, 0.5, 0.85, 1],
+              // times: [0, 0.25, 0.5, 0.85, 1],
             }}
             className="rounded-md aspect-square w-52"
             src="https://cdn.discordapp.com/emojis/1152696704303370371.gif?size=512&quality=lossless"
